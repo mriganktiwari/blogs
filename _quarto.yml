@@ -3,14 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "bodybytes"
+  title: "body and bytes"
   navbar:
     right:
       # - href: index.qmd
       #   text: Home
       - href: blogs.qmd
         text: Blog
-      - about.qmd
+      # - about.qmd
+      # - href: body.qmd
 
 format:
   html:

@@ -1,9 +1,37 @@
 ---
-title: "body & bytes"
---- 
+title: "Mrigank Tiwari"
+image: mypic.jpg
+resources: resume.pdf
+about:
+  template: trestles
+  image-shape: rectangle
+  image-width: 15em
+  links:
+    - text: Email
+      icon: envelope
+      href: mailto:tiwarimrigank2@gmail.com
+    - text: GitHub
+      icon: github
+      href: https://github.com/mriganktiwari
+    - text: Publications
+      icon: Google Scholar
+      href: https://scholar.google.com/citations?user=bqXDPHIAAAAJ&hl=en
+    - text: X
+      icon: Twitter
+      href: https://x.com/meta_shift_af
+    # - text: YouTube
+    #   icon: youtube
+    #   href: https://youtube.com/
+    - text: resume
+      icon: file-text
+      href: resume.pdf
+  id: ppc
+---
 
-**Bits**: My evolution in digital realm - ML, DL, any Computing
+:::{#ppc}
+**Body**: Journey to my physical & mental evolution
 
-**Body**: My physical & mental evolution
+**Bytes**: Learning from my career and preparation in ML, DL
 
 I plan to blog both aspects of my developments here onwards.
+:::
