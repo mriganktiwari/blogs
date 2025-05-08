@@ -1,0 +1,9 @@
+---
+title: "body bytes"
+--- 
+
+**Bits**: My evolution in digital realm - ML, DL, any Computing
+
+**Body**: My physical & mental evolution
+
+I plan to blog both aspects of my developments here onwards.

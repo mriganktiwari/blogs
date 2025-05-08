@@ -1,0 +1,44 @@
+{
+  "index.qmd": {
+    "index.html": "739f5241"
+  },
+  "about.qmd": {
+    "about.html": "c6f7e527"
+  },
+  "blog.qmd": {
+    "blog.html": "4348e680"
+  },
+  "posts/2020-01-29-My_foray.md": {
+    "2020-01-29-My_foray.html": "1da82fa4"
+  },
+  "blogs.qmd": {
+    "blogs.html": "b2191882"
+  },
+  "posts/2020-06-02-Terminal_Find_Grep.md": {
+    "2020-06-02-Terminal_Find_Grep.html": "d3bfd41f"
+  },
+  "posts/2025-04-24-Restart.md": {
+    "2025-04-24-Restart.html": "674ceaea"
+  },
+  "posts/2020-03-17-Ubuntu19.10-DL-setup.md": {
+    "2020-03-17-Ubuntu19.10-DL-setup.html": "36a30daf"
+  },
+  "posts/2020-02-20-Running-transformation.md": {
+    "2020-02-20-Running-transformation.html": "1d67cdfb"
+  },
+  "posts/2020-04-22-Remote-Jupyter-Lab-setup.md": {
+    "2020-04-22-Remote-Jupyter-Lab-setup.html": "42b08057"
+  },
+  "posts/2020-04-25-Mounting-storage-to-file-system.md": {
+    "2020-04-25-Mounting-storage-to-file-system.html": "70d22188"
+  },
+  "posts/2020-11-28-Committing_once_again.md": {
+    "2020-11-28-Committing_once_again.html": "f6fa1e57"
+  },
+  "posts/2020-02-13-Machine-Learning-Resources.md": {
+    "2020-02-13-Machine-Learning-Resources.html": "9326ddd1"
+  },
+  "posts/2020-01-14-welcome.md": {
+    "2020-01-14-welcome.html": "2b36f6b8"
+  }
+}
