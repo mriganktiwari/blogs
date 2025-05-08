@@ -19,6 +19,6 @@ format:
       - cosmo
       - brand
     mainfont: arial
-    fontsize: 1.5rem
+    fontsize: 1.3rem
     css: styles.css
     toc: true
