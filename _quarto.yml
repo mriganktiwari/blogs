@@ -3,9 +3,9 @@ project:
   output-dir: docs
 
 website:
-  title: "body bytes"
+  title: "bodybytes"
   navbar:
-    left:
+    right:
       # - href: index.qmd
       #   text: Home
       - href: blogs.qmd
