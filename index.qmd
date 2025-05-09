@@ -1,6 +1,6 @@
 ---
 title: "Mrigank Tiwari"
-image: mypic.jpg
+image: mrigank.jpeg
 resources: resume.pdf
 about:
   template: trestles
