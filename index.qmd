@@ -3,7 +3,7 @@ title: "Mrigank Tiwari"
 image: mrigank.jpeg
 resources: resume.pdf
 about:
-  template: trestles
+  template: solana
   image-shape: rectangle
   image-width: 15em
   links:

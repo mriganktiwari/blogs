@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2020-06-02">
 
-<title>Terminal commands – bitsandbody</title>
+<title>Terminal commands – body and bytes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ff05bc1acbbc9a8e4218ff1581ee5d26.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">bitsandbody</span>
+    <span class="navbar-title">body and bytes</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -89,14 +89,10 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../blogs.html"> 
 <span class="menu-text">Blog</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
-<span class="menu-text">About</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -114,15 +110,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#find" id="toc-find" class="nav-link active" data-scroll-target="#find">find</a>
-  <ul class="collapse">
-  <li><a href="#search-by-type-file-or-dir" id="toc-search-by-type-file-or-dir" class="nav-link" data-scroll-target="#search-by-type-file-or-dir">Search by Type (file or dir)</a></li>
+  <li><a href="#search-by-type-file-or-dir" id="toc-search-by-type-file-or-dir" class="nav-link active" data-scroll-target="#search-by-type-file-or-dir">Search by Type (file or dir)</a></li>
   <li><a href="#search-by-file-name" id="toc-search-by-file-name" class="nav-link" data-scroll-target="#search-by-file-name">Search by file name</a></li>
   <li><a href="#search-by-time-day" id="toc-search-by-time-day" class="nav-link" data-scroll-target="#search-by-time-day">Search by time / day</a></li>
   <li><a href="#search-by-file-size" id="toc-search-by-file-size" class="nav-link" data-scroll-target="#search-by-file-size">Search by file size</a></li>
   <li><a href="#search-based-on-permissions" id="toc-search-based-on-permissions" class="nav-link" data-scroll-target="#search-based-on-permissions">Search based on permissions</a></li>
   <li><a href="#search-and-perform-actions" id="toc-search-and-perform-actions" class="nav-link" data-scroll-target="#search-and-perform-actions">Search and perform actions</a></li>
-  </ul></li>
   <li><a href="#grep-global-regular-expression-print" id="toc-grep-global-regular-expression-print" class="nav-link" data-scroll-target="#grep-global-regular-expression-print">_grep (Global Regular Expression Print)</a>
   <ul class="collapse">
   <li><a href="#finding-is-a-given-text-is-present-in-some-file" id="toc-finding-is-a-given-text-is-present-in-some-file" class="nav-link" data-scroll-target="#finding-is-a-given-text-is-present-in-some-file">Finding is a given text is present in some file</a></li>
@@ -164,9 +157,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="find" class="level2">
-<h2 class="anchored" data-anchor-id="find">find</h2>
-<p><code>man find</code></p>
 <section id="search-by-type-file-or-dir" class="level3">
 <h3 class="anchored" data-anchor-id="search-by-type-file-or-dir">Search by Type (file or dir)</h3>
 <ul>
@@ -251,7 +241,6 @@ and subsequent directories</dir></li>
 <li><code>find &lt;dir&gt; -type f -name "*.jpg" -exec rm {} +</code> | Deletes all the files returned from the command precesing <code>-exec</code></li>
 <li><code>find &lt;dir&gt; -type f -name "*.jpg" -maxdepth 1 -exec rm {} +</code> | Deletes all the files returned from the command precesing <code>-exec</code></li>
 </ul>
-</section>
 </section>
 <section id="grep-global-regular-expression-print" class="level2">
 <h2 class="anchored" data-anchor-id="grep-global-regular-expression-print">_grep (Global Regular Expression Print)</h2>
