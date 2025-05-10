@@ -43,5 +43,8 @@
   },
   "body.qmd": {
     "body.html": "58219e02"
+  },
+  "posts/eda-calories-prediction-data.ipynb": {
+    "eda-calories-prediction-data.html": "a75bb1e7"
   }
 }

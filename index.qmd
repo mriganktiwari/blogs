@@ -29,9 +29,9 @@ about:
 ---
 
 :::{#ppc}
-**Body**: Journey to my physical & mental evolution
+<!-- **Body**: Journey to my physical & mental evolution
 
-**Bytes**: Learning from my career and preparation in ML, DL
+**Bytes**: Learning from my career and preparation in ML, DL -->
 
 I plan to blog both aspects of my developments here onwards.
 :::
