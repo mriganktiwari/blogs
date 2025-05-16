@@ -6,4 +6,4 @@ listing:
   type: default
 ---
 
-Welcome to my blog. Here are my latest posts:
+My learning logs.

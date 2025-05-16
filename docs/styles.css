@@ -1,1 +1,69 @@
 /* css styles */
+/* Only apply narrow layout to the homepage (index.qmd) */
+.page-index #quarto-content {
+  padding-top: 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Center heading and intro text on homepage */
+.page-index h1,
+.page-index p {
+  text-align: center;
+}
+
+/* Blog listing styles — only affect listing blocks */
+.listing-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.listing-description {
+  color: #444;
+}
+
+/* Style for code input cells */
+.cell .code {
+  background-color: #f7f7f7;
+  border-left: 4px solid #d0d0d0;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+/* Optional: label code cells like In [1]: */
+.cell .code::before {
+  content: "In [ ]:";
+  display: block;
+  color: #999;
+  font-family: monospace;
+  margin-bottom: 0.5em;
+}
+
+/* Style for code outputs */
+.cell .output {
+  background-color: #fdfdfd;
+  border: 1px solid #e0e0e0;
+  padding: 1em;
+  margin: 0.5em 0 2em 0;
+  border-radius: 6px;
+  font-family: monospace;
+  font-size: 0.92rem;
+  color: #333;
+}
+
+/* Optional: label outputs like Out [1]: */
+.cell .output::before {
+  content: "Out [ ]:";
+  display: block;
+  color: #666;
+  font-family: monospace;
+  margin-bottom: 0.25em;
+}
+
+/* Slight spacing for markdown cells */
+.cell.markdown {
+  margin: 1.5em 0;
+  line-height: 1.6;
+}

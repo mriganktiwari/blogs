@@ -1,37 +1,16 @@
 ---
-title: "Mrigank Tiwari"
-image: mrigank.jpeg
-resources: resume.pdf
-about:
-  template: solana
-  image-shape: rectangle
-  image-width: 15em
-  links:
-    - text: Email
-      icon: envelope
-      href: mailto:tiwarimrigank2@gmail.com
-    - text: GitHub
-      icon: github
-      href: https://github.com/mriganktiwari
-    - text: Publications
-      icon: Google Scholar
-      href: https://scholar.google.com/citations?user=bqXDPHIAAAAJ&hl=en
-    - text: X
-      icon: Twitter
-      href: https://x.com/meta_shift_af
-    # - text: YouTube
-    #   icon: youtube
-    #   href: https://youtube.com/
-    - text: resume
-      icon: file-text
-      href: resume.pdf
-  id: ppc
+title: "🧗🏼 Learning logs"
+format: html
+page-layout: full
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: false
+  fields: [title, date, description]
 ---
 
-:::{#ppc}
-<!-- **Body**: Journey to my physical & mental evolution
+_AI researcher & builder_  
+Working on speech, language, and cognition.
 
-**Bytes**: Learning from my career and preparation in ML, DL -->
-
-I plan to blog both aspects of my developments here onwards.
-:::
+---

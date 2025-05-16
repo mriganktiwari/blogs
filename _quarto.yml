@@ -3,22 +3,16 @@ project:
   output-dir: docs
 
 website:
-  title: "body and bytes"
+  title: "Mrigank's blog"
   navbar:
     right:
-      # - href: index.qmd
-      #   text: Home
-      - href: blogs.qmd
-        text: Blog
-      # - about.qmd
-      # - href: body.qmd
+      - href: about.qmd
+        text: About
 
 format:
   html:
     theme:
       - cosmo
-      - brand
-    mainfont: arial
-    fontsize: 1.3rem
+    # mainfont: georgia
     css: styles.css
     toc: true
