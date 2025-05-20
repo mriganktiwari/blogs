@@ -1,5 +1,5 @@
 ---
-title: "🧗🏼 Learning logs"
+# title: "Learning logs"
 format: html
 page-layout: full
 listing:
