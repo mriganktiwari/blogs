@@ -1,5 +1,4 @@
 ---
-# title: "Learning logs"
 format: html
 page-layout: full
 listing:
@@ -10,7 +9,6 @@ listing:
   fields: [title, date, description]
 ---
 
-_AI researcher & builder_  
-Working on speech, language, and cognition.
+Clear explanations of machine learning, and health..
 
 ---
