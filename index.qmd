@@ -1,14 +1,14 @@
 ---
 format: html
-page-layout: full
+# page-layout: full
 listing:
   contents: posts
   sort: "date desc"
   type: default
-  categories: false
+  categories: true
   fields: [title, date, description]
 ---
 
-Clear explanations of machine learning, and health..
+Distilling things that interest me
 
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Committing once again!"
 date: 2020-11-28
-categories: [restart]
+categories: [rebuild]
 ---
 
 Well, it's high time I document my current feelings and thoughts.

@@ -1,7 +1,7 @@
 ---
 title: "Terminal commands"
 date: 2020-06-02
-categories: [terminal, commands]
+categories: [terminal]
 ---
 
 ### Search by Type (file or dir)

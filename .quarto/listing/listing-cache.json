@@ -5,6 +5,14 @@
     ],
     "index.qmd": [
       "posts"
+    ],
+    "health.qmd": [
+      "posts_writing",
+      "posts_health"
+    ],
+    "writing.qmd": [
+      "posts_health",
+      "posts_writing"
     ]
   }
 }

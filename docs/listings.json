@@ -1,18 +1,8 @@
 [
   {
-    "listing": "/blogs.html",
-    "items": [
-      "/posts/eda-calories-prediction-data.html",
-      "/posts/2025-04-24-Restart.html",
-      "/posts/2020-11-28-Committing_once_again.html",
-      "/posts/2020-06-02-Terminal_Find_Grep.html",
-      "/posts/2020-02-20-Running-transformation.html",
-      "/posts/2020-01-29-My_foray.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
+      "/posts/2025-05-28-tough-to-write.html",
       "/posts/eda-calories-prediction-data.html",
       "/posts/2025-04-24-Restart.html",
       "/posts/2020-11-28-Committing_once_again.html",
