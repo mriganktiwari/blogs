@@ -9,6 +9,6 @@ listing:
   fields: [title, date, description]
 ---
 
-Distilling things that interest me
+I will try to distill things that interest me.
 
 ---

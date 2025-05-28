@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Distill logs"
+  title: "Rewire"
   navbar:
     right:
       - href: about.qmd
@@ -13,6 +13,7 @@ format:
   html:
     theme:
       - cosmo
-    # mainfont: georgia
+    mainfont: lora
     css: styles.css
     toc: true
+    fontsize: 1.3em
