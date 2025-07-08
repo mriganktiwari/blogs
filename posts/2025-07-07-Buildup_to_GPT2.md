@@ -10,7 +10,7 @@ I am going to code, record video, push on github my version of coding:
 
 
 1. count based next character prediction
-2. neural network based next character prediction | 8 July 2025
+2. neural network based next character prediction
 3. wave-net for next character prediction
 4. GPT for next char / token prediction
 5. Building up tokenizer for GPT2
