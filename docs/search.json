@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Rewire",
     "section": "",
-    "text": "I will try to distill things that interest me.\n\n\n\n\n\n\n\n\n\n\nBuildup to GPT2\n\n\n\n\n\n\n\n\nJul 7, 2025\n\n\n\n\n\n\n\nChatGPT is making me better at ML coding\n\n\n\n\n\n\n\n\nJun 13, 2025\n\n\n\n\n\n\n\nOn writing: why is it hard?\n\n\n\n\n\n\n\n\nMay 28, 2025\n\n\n\n\n\n\n\nBasics of Exploratory Data Analysis\n\n\n\n\n\n\n\n\nMay 9, 2025\n\n\n\n\n\n\n\nStand out, produce stuff, build in the open\n\n\n\n\n\n\n\n\nApr 24, 2025\n\n\n\n\n\n\n\nCommitting once again!\n\n\n\n\n\n\n\n\nNov 28, 2020\n\n\n\n\n\n\n\nTerminal commands\n\n\n\n\n\n\n\n\nJun 2, 2020\n\n\n\n\n\n\n\nMy running journey\n\n\n\n\n\n\n\n\nFeb 20, 2020\n\n\n\n\n\n\n\nMy foray to overseas MS (Aug 2016 - present)\n\n\n\n\n\n\n\n\nJan 29, 2020\n\n\n\n\n\nNo matching items"
+    "text": "I will try to distill things that interest me.\n\n\n\n\n\n\n\n\n\n\nReflections: from a discussion this morning\n\n\n\n\n\n\n\n\nJul 27, 2025\n\n\n\n\n\n\n\nBuildup to GPT2\n\n\n\n\n\n\n\n\nJul 7, 2025\n\n\n\n\n\n\n\nChatGPT is making me better at ML coding\n\n\n\n\n\n\n\n\nJun 13, 2025\n\n\n\n\n\n\n\nOn writing: why is it hard?\n\n\n\n\n\n\n\n\nMay 28, 2025\n\n\n\n\n\n\n\nBasics of Exploratory Data Analysis\n\n\n\n\n\n\n\n\nMay 9, 2025\n\n\n\n\n\n\n\nStand out, produce stuff, build in the open\n\n\n\n\n\n\n\n\nApr 24, 2025\n\n\n\n\n\n\n\nCommitting once again!\n\n\n\n\n\n\n\n\nNov 28, 2020\n\n\n\n\n\n\n\nTerminal commands\n\n\n\n\n\n\n\n\nJun 2, 2020\n\n\n\n\n\n\n\nMy running journey\n\n\n\n\n\n\n\n\nFeb 20, 2020\n\n\n\n\n\n\n\nMy foray to overseas MS (Aug 2016 - present)\n\n\n\n\n\n\n\n\nJan 29, 2020\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2025-05-28-tough-to-write.html",
@@ -89,5 +89,12 @@
     "title": "About me",
     "section": "",
     "text": "Pending item.."
+  },
+  {
+    "objectID": "posts/2025-07-27-Notes-from-discussion-with-a-friend.html",
+    "href": "posts/2025-07-27-Notes-from-discussion-with-a-friend.html",
+    "title": "Reflections: from a discussion this morning",
+    "section": "",
+    "text": "Possible project ideas:\n\nRecommendations using XGBoost\nDelivery time predictions for ecommerce delivery partner - using XGBoost?\nCompanies like then (connection b/w ecomm & delivery partner) -\n\nThey don’t require people who are just super expert in ML\nThey are not doing any cutting edge research\nThey look for people having good software engineering skills - coupled with decent understanding of ML\nPeople from Google have such kind of skill combo\n\nTime series data for prediction / recommendation using XGBoost"
   }
 ]
