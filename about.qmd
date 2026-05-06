@@ -1,5 +1,13 @@
 ---
-title: "About me"
+title: "About"
 ---
 
-Pending item..
+I'm Mrigank — a data scientist and engineer getting back to building things seriously.
+
+This blog is where I think out loud about machine learning, software engineering, and the journey of learning in public. Some posts are technical walkthroughs, some are just notes from wherever I am in the process.
+
+Currently: going deep on ML fundamentals, working toward the kind of work done at top-tier tech companies.
+
+---
+
+You can find me on [GitHub](https://github.com/mrigank-tiwari).

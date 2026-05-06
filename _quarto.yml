@@ -4,16 +4,25 @@ project:
 
 website:
   title: "Rewire"
+  description: "Notes on machine learning, software, and what it takes to grow."
   navbar:
+    left:
+      - text: "Rewire"
+        href: index.qmd
     right:
       - href: about.qmd
         text: About
+  page-footer:
+    center: "Mrigank Tiwari"
+    border: false
 
 format:
   html:
     theme:
-      - cosmo
-    mainfont: lora
-    css: styles.css
-    toc: true
-    fontsize: 1.3em
+      - litera
+      - styles.css
+    toc: false
+    smooth-scroll: true
+    code-copy: true
+    code-overflow: scroll
+    highlight-style: monokai
