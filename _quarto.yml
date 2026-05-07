@@ -18,9 +18,8 @@ website:
 
 format:
   html:
-    theme:
-      - litera
-      - styles.css
+    theme: litera
+    css: styles.css
     toc: false
     smooth-scroll: true
     code-copy: true
