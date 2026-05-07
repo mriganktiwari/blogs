@@ -31,7 +31,7 @@ body {
   color: var(--text) !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 17px !important;
+  font-size: 19px !important;
   line-height: 1.7 !important;
 }
 
@@ -426,7 +426,7 @@ pre.sourceCode code {
 
 /* 11. Responsive */
 @media (max-width: 768px) {
-  body { font-size: 16px !important; }
+  body { font-size: 17px !important; }
 
   .hero-section { padding: 2rem 0 1.75rem; }
   .hero-section h2 { font-size: 1.85rem !important; }

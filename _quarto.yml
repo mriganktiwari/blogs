@@ -6,9 +6,6 @@ website:
   title: "Rewire"
   description: "Notes on machine learning, software, and what it takes to grow."
   navbar:
-    left:
-      - text: "Rewire"
-        href: index.qmd
     right:
       - href: about.qmd
         text: About
