@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Rewire"
+  title: "Mrigank's blog"
   description: "Notes on machine learning, software, and what it takes to grow."
   navbar:
     right:

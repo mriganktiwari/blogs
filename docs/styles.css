@@ -1,1 +1,446 @@
-/* css styles */
+/* =============================================
+   Rewire — Apple-inspired design system
+   ============================================= */
+
+/* 1. Design tokens */
+:root {
+  --bg:              #fbfbfd;
+  --bg-elevated:     #ffffff;
+  --text:            #1d1d1f;
+  --text-2:          #86868b;
+  --text-3:          #ababab;
+  --accent:          #0066cc;
+  --accent-hover:    #0077ed;
+  --divider:         rgba(0, 0, 0, 0.08);
+  --card-shadow:     0 2px 20px rgba(0, 0, 0, 0.06);
+  --card-shadow-h:   0 8px 40px rgba(0, 0, 0, 0.12);
+  --r-lg:            18px;
+  --r-md:            12px;
+  --r-sm:            8px;
+  --font:            -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  --font-display:    -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+  --font-mono:       "SF Mono", "Fira Code", "Cascadia Code", "JetBrains Mono", monospace;
+  --ease:            0.25s ease;
+  --reading-width:   680px;
+}
+
+/* 2. Base */
+body {
+  font-family: var(--font) !important;
+  background-color: var(--bg) !important;
+  color: var(--text) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 19px !important;
+  line-height: 1.7 !important;
+}
+
+* { box-sizing: border-box; }
+
+/* 3. Navbar — frosted glass */
+.navbar {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+  background: rgba(251, 251, 253, 0.85) !important;
+  backdrop-filter: saturate(180%) blur(20px) !important;
+  -webkit-backdrop-filter: saturate(180%) blur(20px) !important;
+  border-bottom: 1px solid var(--divider) !important;
+  box-shadow: none !important;
+  padding: 0.5rem 0 !important;
+}
+
+.navbar-brand, .navbar-brand:hover {
+  font-family: var(--font-display) !important;
+  font-size: 1.05rem !important;
+  font-weight: 700 !important;
+  color: var(--text) !important;
+  letter-spacing: -0.025em !important;
+}
+
+.navbar .nav-link {
+  font-size: 0.88rem !important;
+  font-weight: 400 !important;
+  color: var(--text-2) !important;
+  transition: color var(--ease) !important;
+  padding: 0.3rem 0.75rem !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: var(--text) !important;
+  background: transparent !important;
+}
+
+/* 4. Main content area */
+#quarto-content {
+  padding-top: 0.5rem !important;
+}
+
+main.content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* 5. Homepage hero */
+.hero-section {
+  max-width: var(--reading-width);
+  margin: 0 auto;
+  padding: 3.5rem 0 2.5rem;
+}
+
+.hero-section h2 {
+  font-family: var(--font-display) !important;
+  font-size: clamp(1.9rem, 5vw, 3rem) !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.04em !important;
+  line-height: 1.08 !important;
+  color: var(--text) !important;
+  margin-bottom: 0.75rem !important;
+  padding-bottom: 0 !important;
+  border-bottom: none !important;
+}
+
+.hero-section p {
+  font-size: 1.1rem !important;
+  color: var(--text-2) !important;
+  line-height: 1.6 !important;
+  max-width: 500px;
+  margin-bottom: 0 !important;
+}
+
+/* 6. Blog listing — clean list */
+.quarto-listing-container {
+  max-width: var(--reading-width);
+  margin: 0 auto;
+  padding-top: 0.5rem;
+}
+
+.quarto-listing-default {
+  border-top: 1px solid var(--divider);
+}
+
+.quarto-post {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: baseline !important;
+  padding: 1.4rem 0 !important;
+  border-bottom: 1px solid var(--divider) !important;
+  gap: 1.5rem !important;
+  background: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  transition: none !important;
+}
+
+.quarto-post .body {
+  flex: 1 !important;
+  padding: 0 !important;
+  order: 0 !important;
+  min-width: 0;
+}
+
+.quarto-post .metadata {
+  flex: 0 0 auto !important;
+  padding: 0 !important;
+  order: 1 !important;
+  text-align: right !important;
+}
+
+.quarto-post .metadata a {
+  text-decoration: none !important;
+  pointer-events: none !important;
+}
+
+.quarto-post .listing-date {
+  font-size: 0.74rem !important;
+  color: var(--text-3) !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.04em !important;
+  text-transform: uppercase !important;
+  white-space: nowrap !important;
+}
+
+.quarto-post h3.listing-title,
+.quarto-post .listing-title {
+  font-family: var(--font-display) !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.02em !important;
+  line-height: 1.35 !important;
+  margin: 0 0 0.3rem !important;
+  color: var(--text) !important;
+}
+
+.quarto-post .listing-title a {
+  color: var(--text) !important;
+  text-decoration: none !important;
+  transition: color var(--ease) !important;
+}
+
+.quarto-post .listing-title a:hover {
+  color: var(--accent) !important;
+}
+
+.quarto-post .listing-description {
+  font-size: 0.85rem !important;
+  color: var(--text-2) !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
+  display: block !important;
+}
+
+.quarto-post .listing-description a {
+  color: var(--text-2) !important;
+  text-decoration: none !important;
+  pointer-events: none !important;
+}
+
+/* 7. Post page — title */
+.quarto-title-block {
+  padding-top: 2.5rem !important;
+  padding-bottom: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  border-bottom: 1px solid var(--divider) !important;
+}
+
+h1.title {
+  font-family: var(--font-display) !important;
+  font-size: clamp(1.8rem, 4vw, 2.6rem) !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.04em !important;
+  line-height: 1.12 !important;
+  color: var(--text) !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.quarto-title .quarto-categories {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.4rem !important;
+  margin-top: 0.75rem !important;
+}
+
+.quarto-category {
+  background: var(--bg) !important;
+  color: var(--accent) !important;
+  border: 1px solid rgba(0, 102, 204, 0.2) !important;
+  border-radius: 100px !important;
+  font-size: 0.7rem !important;
+  font-weight: 500 !important;
+  padding: 0.2rem 0.65rem !important;
+  text-decoration: none !important;
+}
+
+.quarto-title-meta {
+  font-size: 0.82rem !important;
+  color: var(--text-2) !important;
+}
+
+.quarto-title-meta-heading {
+  font-size: 0.68rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  color: var(--text-3) !important;
+}
+
+/* 8. Post article body — reading typography */
+#quarto-document-content {
+  max-width: var(--reading-width) !important;
+}
+
+article h2 {
+  font-family: var(--font-display) !important;
+  font-size: 1.45rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.025em !important;
+  line-height: 1.25 !important;
+  color: var(--text) !important;
+  margin-top: 2.75rem !important;
+  margin-bottom: 0.6rem !important;
+  padding-bottom: 0 !important;
+  border-bottom: none !important;
+}
+
+article h3 {
+  font-family: var(--font-display) !important;
+  font-size: 1.15rem !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.015em !important;
+  color: var(--text) !important;
+  margin-top: 2rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+article h4 {
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  color: var(--text) !important;
+  margin-top: 1.5rem !important;
+}
+
+article p {
+  margin-bottom: 1.4em !important;
+  color: var(--text) !important;
+}
+
+article a {
+  color: var(--accent) !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid rgba(0, 102, 204, 0.3) !important;
+  transition: color var(--ease), border-color var(--ease) !important;
+}
+
+article a:hover {
+  color: var(--accent-hover) !important;
+  border-bottom-color: var(--accent-hover) !important;
+}
+
+article ul, article ol {
+  padding-left: 1.5rem !important;
+  margin-bottom: 1.4em !important;
+}
+
+article li {
+  margin-bottom: 0.4em !important;
+  line-height: 1.8 !important;
+}
+
+article blockquote {
+  border-left: 3px solid var(--accent) !important;
+  background: rgba(0, 102, 204, 0.04) !important;
+  border-radius: 0 var(--r-sm) var(--r-sm) 0 !important;
+  margin: 1.5rem 0 !important;
+  padding: 0.75rem 1.25rem !important;
+  color: var(--text-2) !important;
+}
+
+article blockquote p {
+  margin-bottom: 0 !important;
+  color: var(--text-2) !important;
+}
+
+article hr {
+  border: none !important;
+  border-top: 1px solid var(--divider) !important;
+  margin: 2.5rem 0 !important;
+}
+
+/* 9. Code */
+code:not(.sourceCode):not([class]) {
+  font-family: var(--font-mono) !important;
+  font-size: 0.84em !important;
+  background: rgba(0, 0, 0, 0.05) !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  border-radius: 5px !important;
+  padding: 0.1em 0.4em !important;
+  color: var(--text) !important;
+}
+
+div.sourceCode, pre.sourceCode {
+  background: #1c1c1e !important;
+  border: none !important;
+  border-radius: var(--r-md) !important;
+  padding: 1.25rem 1.4rem !important;
+  margin: 1.5rem 0 !important;
+  overflow-x: auto !important;
+}
+
+div.sourceCode pre,
+pre.sourceCode {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+div.sourceCode code,
+pre.sourceCode code {
+  font-family: var(--font-mono) !important;
+  font-size: 0.875rem !important;
+  line-height: 1.65 !important;
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+/* code copy button */
+.code-copy-button {
+  background: rgba(255,255,255,0.08) !important;
+  border: none !important;
+  border-radius: var(--r-sm) !important;
+  color: rgba(255,255,255,0.5) !important;
+  top: 0.6rem !important;
+  right: 0.6rem !important;
+}
+
+.code-copy-button:hover {
+  background: rgba(255,255,255,0.18) !important;
+  color: #fff !important;
+}
+
+/* 10. Footer */
+.nav-footer {
+  background: var(--bg) !important;
+  border-top: 1px solid var(--divider) !important;
+  padding: 1.75rem 0 !important;
+  font-size: 0.8rem !important;
+  color: var(--text-3) !important;
+}
+
+.nav-footer a {
+  color: var(--text-2) !important;
+  text-decoration: none !important;
+}
+
+.nav-footer a:hover {
+  color: var(--text) !important;
+}
+
+/* 11. Responsive */
+@media (max-width: 768px) {
+  body { font-size: 17px !important; }
+
+  .hero-section { padding: 2rem 0 1.75rem; }
+  .hero-section h2 { font-size: 1.85rem !important; }
+  .hero-section p { font-size: 1rem !important; }
+
+  h1.title { font-size: 1.75rem !important; }
+}
+
+/* 12. Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:           #000000;
+    --bg-elevated:  #1c1c1e;
+    --text:         #f5f5f7;
+    --text-2:       #ababab;
+    --text-3:       #6e6e73;
+    --accent:       #2997ff;
+    --accent-hover: #5aadff;
+    --divider:      rgba(255, 255, 255, 0.1);
+    --card-shadow:  0 2px 20px rgba(0, 0, 0, 0.4);
+    --card-shadow-h:0 8px 40px rgba(0, 0, 0, 0.6);
+  }
+
+  .navbar {
+    background: rgba(0, 0, 0, 0.85) !important;
+  }
+
+  .quarto-category {
+    background: #2c2c2e !important;
+    border-color: rgba(41, 151, 255, 0.25) !important;
+  }
+
+  code:not(.sourceCode):not([class]) {
+    background: rgba(255, 255, 255, 0.08) !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+    color: var(--text) !important;
+  }
+
+  article blockquote {
+    background: rgba(41, 151, 255, 0.07) !important;
+    border-left-color: var(--accent) !important;
+  }
+}

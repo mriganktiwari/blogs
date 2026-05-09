@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.30">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Rewire</title>
+<title>Mrigank’s blog</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -38,10 +41,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e19f81c97bc45f6835df6be9cce9fdc9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fd5a97710e799347afcabba88f9a0cf3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cc78757d76266a98c4fca1455a705647.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,9 +82,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -98,9 +101,10 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+<style>html{ scroll-behavior: smooth; }</style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -113,7 +117,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -132,7 +136,7 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -140,7 +144,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Rewire</span>
+    <span class="navbar-title">Mrigank’s blog</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -164,24 +168,20 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(10)</span></div><div class="category" data-category="Y29kaW5n">coding <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGVlcCUyMGxlYXJuaW5n">deep learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZWR1Y2F0aW9u">education <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z3B0Mg==">gpt2 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aGVhbHRo">health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="a2FnZ2xl">kaggle <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGxt">llm <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWFjaGluZSUyMGxlYXJuaW5n">machine learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bWw=">ml <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV1cmFsJTIwbmV0d29yaw==">neural network <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHl0aG9u">python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmVidWlsZA==">rebuild <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cmVmbGVjdGlvbnM=">reflections <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cnVubmluZw==">running <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGVybWluYWw=">terminal <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dHJhbnNmb3JtZXI=">transformer <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d3JpdGluZw==">writing <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<p>I will try to distill things that interest me.</p>
-<hr>
 
 
 
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="cmVmbGVjdGlvbnM=" data-listing-date-sort="1753554600000" data-listing-file-modified-sort="1753596996386" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="96">
+<div class="quarto-post image-right" data-index="0" data-categories="cmVmbGVjdGlvbnM=" data-listing-date-sort="1753554600000" data-listing-file-modified-sort="1753877803009" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="96">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2025-07-27-Notes-from-discussion-with-a-friend.html" class="no-external">Reflections: from a discussion this morning</a>
@@ -198,7 +198,7 @@ Jul 27, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="bGxtJTJDZ3B0MiUyQ3RyYW5zZm9ybWVyJTJDbWFjaGluZSUyMGxlYXJuaW5nJTJDZGVlcCUyMGxlYXJuaW5nJTJDbmV1cmFsJTIwbmV0d29yaw==" data-listing-date-sort="1751826600000" data-listing-file-modified-sort="1751946640548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
+<div class="quarto-post image-right" data-index="1" data-categories="bGxtJTJDZ3B0MiUyQ3RyYW5zZm9ybWVyJTJDbWFjaGluZSUyMGxlYXJuaW5nJTJDZGVlcCUyMGxlYXJuaW5nJTJDbmV1cmFsJTIwbmV0d29yaw==" data-listing-date-sort="1751826600000" data-listing-file-modified-sort="1753877803009" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2025-07-07-Buildup_to_GPT2.html" class="no-external">Buildup to GPT2</a>
@@ -215,7 +215,7 @@ Jul 7, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Y29kaW5nJTJDbWw=" data-listing-date-sort="1749753000000" data-listing-file-modified-sort="1749829515654" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="410">
+<div class="quarto-post image-right" data-index="2" data-categories="Y29kaW5nJTJDbWw=" data-listing-date-sort="1749753000000" data-listing-file-modified-sort="1753877803009" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="410">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2025-06-13-Using-chatgpt-as-coding-partner.html" class="no-external">ChatGPT is making me better at ML coding</a>
@@ -232,7 +232,7 @@ Jun 13, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="d3JpdGluZw==" data-listing-date-sort="1748370600000" data-listing-file-modified-sort="1748442041998" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="206">
+<div class="quarto-post image-right" data-index="3" data-categories="d3JpdGluZw==" data-listing-date-sort="1748370600000" data-listing-file-modified-sort="1753877803009" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="206">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2025-05-28-tough-to-write.html" class="no-external">On writing: why is it hard?</a>
@@ -249,24 +249,7 @@ May 28, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="bWFjaGluZSUyMGxlYXJuaW5nJTJDcHl0aG9uJTJDa2FnZ2xl" data-listing-date-sort="1746729000000" data-listing-file-modified-sort="1749399212134" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1082">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/eda-calories-prediction-data.html" class="no-external">Basics of Exploratory Data Analysis</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/eda-calories-prediction-data.html" class="no-external">
-So it’s fair to say that scatter plots confirm the correlation numbers
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/eda-calories-prediction-data.html" class="no-external">
-<div class="listing-date">
-May 9, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="cmVidWlsZA==" data-listing-date-sort="1745433000000" data-listing-file-modified-sort="1748428418158" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="478">
+<div class="quarto-post image-right" data-index="4" data-categories="cmVidWlsZA==" data-listing-date-sort="1745433000000" data-listing-file-modified-sort="1753877803009" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="478">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2025-04-24-Restart.html" class="no-external">Stand out, produce stuff, build in the open</a>
@@ -283,7 +266,7 @@ Apr 24, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="cmVidWlsZA==" data-listing-date-sort="1606501800000" data-listing-file-modified-sort="1748428410687" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="377">
+<div class="quarto-post image-right" data-index="5" data-categories="cmVidWlsZA==" data-listing-date-sort="1606501800000" data-listing-file-modified-sort="1753877803009" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="377">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2020-11-28-Committing_once_again.html" class="no-external">Committing once again!</a>
@@ -300,7 +283,7 @@ Nov 28, 2020
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="dGVybWluYWw=" data-listing-date-sort="1591036200000" data-listing-file-modified-sort="1748428401198" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="873">
+<div class="quarto-post image-right" data-index="6" data-categories="dGVybWluYWw=" data-listing-date-sort="1591036200000" data-listing-file-modified-sort="1753877803009" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="873">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2020-06-02-Terminal_Find_Grep.html" class="no-external">Terminal commands</a>
@@ -317,7 +300,7 @@ Jun 2, 2020
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="aGVhbHRoJTJDcnVubmluZw==" data-listing-date-sort="1582137000000" data-listing-file-modified-sort="1746641171334" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="589">
+<div class="quarto-post image-right" data-index="7" data-categories="aGVhbHRoJTJDcnVubmluZw==" data-listing-date-sort="1582137000000" data-listing-file-modified-sort="1753877803009" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="589">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2020-02-20-Running-transformation.html" class="no-external">My running journey</a>
@@ -334,7 +317,7 @@ Feb 20, 2020
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="ZWR1Y2F0aW9u" data-listing-date-sort="1580236200000" data-listing-file-modified-sort="1748428382352" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="433">
+<div class="quarto-post image-right" data-index="8" data-categories="ZWR1Y2F0aW9u" data-listing-date-sort="1580236200000" data-listing-file-modified-sort="1753877803009" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="433">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2020-01-29-My_foray.html" class="no-external">My foray to overseas MS (Aug 2016 - present)</a>
@@ -405,13 +388,14 @@ Jan 29, 2020
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -754,8 +738,22 @@ Jan 29, 2020
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>Mrigank Tiwari</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
