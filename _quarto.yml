@@ -7,6 +7,8 @@ website:
   description: "Notes on machine learning, software, and what it takes to grow."
   navbar:
     right:
+      - href: index.qmd
+        text: Posts
       - href: about.qmd
         text: About
   page-footer:

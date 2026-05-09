@@ -197,6 +197,10 @@ main.content {
 }
 
 /* 7. Post page — title */
+#title-block-header:empty {
+  display: none !important;
+}
+
 .quarto-title-block {
   padding-top: 2.5rem !important;
   padding-bottom: 1.5rem !important;
