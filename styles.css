@@ -37,6 +37,34 @@ body {
 
 * { box-sizing: border-box; }
 
+/* Normalize body font across all elements except code/pre and Bootstrap icons */
+body, p, li, span, div, a, h1, h2, h3, h4, h5, h6,
+article, main, section, header, footer, aside, blockquote,
+.container, .content, button, input, select, textarea {
+  font-family: var(--font) !important;
+}
+
+/* Restore display font for headings and brand */
+h1, h2, h3, h4, h5, h6,
+.navbar-brand,
+.hero-section h2,
+h1.title,
+.quarto-post .listing-title,
+article h2, article h3, article h4 {
+  font-family: var(--font-display) !important;
+}
+
+/* Restore monospace for code */
+code, pre, kbd, samp, .sourceCode, .sourceCode code,
+code:not(.sourceCode):not([class]) {
+  font-family: var(--font-mono) !important;
+}
+
+/* Keep Bootstrap icon font intact */
+[class^="bi-"], [class*=" bi-"], .bi {
+  font-family: "bootstrap-icons" !important;
+}
+
 /* 3. Navbar — frosted glass */
 .navbar {
   position: sticky !important;
@@ -45,7 +73,7 @@ body {
   background: rgba(251, 251, 253, 0.85) !important;
   backdrop-filter: saturate(180%) blur(20px) !important;
   -webkit-backdrop-filter: saturate(180%) blur(20px) !important;
-  border-bottom: 1px solid var(--divider) !important;
+  border-bottom: none !important;
   box-shadow: none !important;
   padding: 0.5rem 0 !important;
 }
@@ -111,13 +139,13 @@ main.content {
 
 /* 6. Blog listing — clean list */
 .quarto-listing-container {
-  max-width: var(--reading-width);
+  max-width: min(900px, 92vw);
   margin: 0 auto;
   padding-top: 0.5rem;
 }
 
 .quarto-listing-default {
-  border-top: 1px solid var(--divider);
+  border-top: none;
 }
 
 .quarto-post {
@@ -125,7 +153,7 @@ main.content {
   flex-direction: row !important;
   align-items: baseline !important;
   padding: 1.4rem 0 !important;
-  border-bottom: 1px solid var(--divider) !important;
+  border-bottom: none !important;
   gap: 1.5rem !important;
   background: none !important;
   box-shadow: none !important;
@@ -252,6 +280,11 @@ h1.title {
 /* 8. Post article body — reading typography */
 #quarto-document-content {
   max-width: var(--reading-width) !important;
+}
+
+/* Listing pages get a wider container than article pages */
+#quarto-document-content:has(.quarto-listing) {
+  max-width: min(900px, 92vw) !important;
 }
 
 article h2 {
@@ -416,20 +449,20 @@ pre.sourceCode code {
 /* 12. Dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg:           #000000;
-    --bg-elevated:  #1c1c1e;
-    --text:         #f5f5f7;
-    --text-2:       #ababab;
+    --bg:           #1c1c1e;
+    --bg-elevated:  #2c2c2e;
+    --text:         #e8e8ea;
+    --text-2:       #9a9a9f;
     --text-3:       #6e6e73;
     --accent:       #2997ff;
     --accent-hover: #5aadff;
-    --divider:      rgba(255, 255, 255, 0.1);
+    --divider:      rgba(255, 255, 255, 0.08);
     --card-shadow:  0 2px 20px rgba(0, 0, 0, 0.4);
     --card-shadow-h:0 8px 40px rgba(0, 0, 0, 0.6);
   }
 
   .navbar {
-    background: rgba(0, 0, 0, 0.85) !important;
+    background: rgba(28, 28, 30, 0.85) !important;
   }
 
   .quarto-category {
