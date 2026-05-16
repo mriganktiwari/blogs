@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - "google*.html"
 
 website:
   title: "Mrigank's blog"
