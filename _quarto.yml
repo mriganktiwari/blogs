@@ -5,6 +5,9 @@ project:
 website:
   title: "Mrigank's blog"
   description: "Notes on machine learning, software, and what it takes to grow."
+  site-url: https://mriganktiwari.github.io/blogs/
+  open-graph: true
+  twitter-card: true
   navbar:
     right:
       - href: index.qmd
@@ -24,3 +27,4 @@ format:
     code-copy: true
     code-overflow: scroll
     highlight-style: monokai
+    author-meta: "Mrigank Tiwari"
