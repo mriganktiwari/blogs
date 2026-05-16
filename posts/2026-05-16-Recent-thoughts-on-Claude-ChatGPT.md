@@ -1,6 +1,6 @@
 ---
 title: "My company gives me Codex and Claude subscriptions!"
-date: 2025-07-27
+date: 2026-05-16
 categories: [reflections]
 ---
 
